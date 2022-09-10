@@ -1,0 +1,20 @@
+#soins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#soins img{
+    margin-top: 50px;
+}
+
+#soins .soins-description{
+    color: #fff;
+    max-width: 800px;
+    margin-top: 100px;
+
+}
+#soins p{
+    margin: 50px auto;
+}

@@ -1,0 +1,30 @@
+.story-content{
+    display: flex;
+    flex-basis: auto;
+    margin: 75px 0;
+    @media screen and (max-width: 1265px){
+        box-shadow: 3px 4px 36px rgba(242, 169, 60, 0.15);
+        border-radius: 25px;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+        
+}
+
+.story-content > * {
+    margin-top: 50px;
+    flex-basis: 100%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-text p {
+    max-width: 500px;
+    font-size: 19px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
