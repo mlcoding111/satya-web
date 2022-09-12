@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/satya-web/static/css/main.a71b4e4b.css",
-    "main.js": "/satya-web/static/js/main.8c944841.js",
+    "main.css": "/satya-web/static/css/main.d506f997.css",
+    "main.js": "/satya-web/static/js/main.a0e4c9b1.js",
     "static/media/me_3.png": "/satya-web/static/media/me_3.72b1ee52bd7c01de7689.png",
     "static/media/me_1.png": "/satya-web/static/media/me_1.a95a34175a9cb4780815.png",
     "static/media/greece_1.png": "/satya-web/static/media/greece_1.2f3f116b53f45e07469f.png",
@@ -9,13 +9,17 @@
     "static/media/greece_3.png": "/satya-web/static/media/greece_3.fb8b49176c2a1c8877a6.png",
     "static/media/greece_2.png": "/satya-web/static/media/greece_2.2e4cb87191a6e033844c.png",
     "static/media/footer-icon.png": "/satya-web/static/media/footer-icon.dbc0e651d87d268d4136.png",
+    "static/media/element_feu.svg": "/satya-web/static/media/element_feu.d3ff355c2b9701e3c0ba1fc68d104037.svg",
+    "static/media/element_eau.svg": "/satya-web/static/media/element_eau.918d27e94573bb90cb9502067a4f5eec.svg",
     "static/media/header.jpg": "/satya-web/static/media/header.56f8978708560fd80a82.jpg",
+    "static/media/element_terre.svg": "/satya-web/static/media/element_terre.772a4dcc089559de4205220e221b1a80.svg",
+    "static/media/element_air.svg": "/satya-web/static/media/element_air.e51b9f4d1df94fd6a1830048a322db62.svg",
     "index.html": "/satya-web/index.html",
-    "main.a71b4e4b.css.map": "/satya-web/static/css/main.a71b4e4b.css.map",
-    "main.8c944841.js.map": "/satya-web/static/js/main.8c944841.js.map"
+    "main.d506f997.css.map": "/satya-web/static/css/main.d506f997.css.map",
+    "main.a0e4c9b1.js.map": "/satya-web/static/js/main.a0e4c9b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a71b4e4b.css",
-    "static/js/main.8c944841.js"
+    "static/css/main.d506f997.css",
+    "static/js/main.a0e4c9b1.js"
   ]
 }
