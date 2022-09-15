@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/satya-web/static/css/main.e16e3097.css",
-    "main.js": "/satya-web/static/js/main.d09a86fd.js",
+    "main.css": "/satya-web/static/css/main.9d3e30b5.css",
+    "main.js": "/satya-web/static/js/main.0c626557.js",
     "static/media/me_3.png": "/satya-web/static/media/me_3.72b1ee52bd7c01de7689.png",
     "static/media/me_1.png": "/satya-web/static/media/me_1.a95a34175a9cb4780815.png",
     "static/media/greece_1.png": "/satya-web/static/media/greece_1.2f3f116b53f45e07469f.png",
@@ -18,11 +18,11 @@
     "index.html": "/satya-web/index.html",
     "static/media/facebook.svg": "/satya-web/static/media/facebook.677d3c2d3e2dcec4e05d9db13f15ec9a.svg",
     "static/media/patreon.svg": "/satya-web/static/media/patreon.6fff94144a4a85897a5d09595d78e46f.svg",
-    "main.e16e3097.css.map": "/satya-web/static/css/main.e16e3097.css.map",
-    "main.d09a86fd.js.map": "/satya-web/static/js/main.d09a86fd.js.map"
+    "main.9d3e30b5.css.map": "/satya-web/static/css/main.9d3e30b5.css.map",
+    "main.0c626557.js.map": "/satya-web/static/js/main.0c626557.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16e3097.css",
-    "static/js/main.d09a86fd.js"
+    "static/css/main.9d3e30b5.css",
+    "static/js/main.0c626557.js"
   ]
 }
