@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/satya-web/static/css/main.9d3e30b5.css",
+    "main.css": "/satya-web/static/css/main.b02310d8.css",
     "main.js": "/satya-web/static/js/main.0c626557.js",
     "static/media/me_3.png": "/satya-web/static/media/me_3.72b1ee52bd7c01de7689.png",
     "static/media/me_1.png": "/satya-web/static/media/me_1.a95a34175a9cb4780815.png",
     "static/media/greece_1.png": "/satya-web/static/media/greece_1.2f3f116b53f45e07469f.png",
-    "static/media/photo_me.jpg": "/satya-web/static/media/photo_me.38df9dbc959865e5bbf3.jpg",
     "static/media/greece_3.png": "/satya-web/static/media/greece_3.fb8b49176c2a1c8877a6.png",
     "static/media/greece_2.png": "/satya-web/static/media/greece_2.2e4cb87191a6e033844c.png",
     "static/media/footer-icon.png": "/satya-web/static/media/footer-icon.dbc0e651d87d268d4136.png",
@@ -18,11 +17,11 @@
     "index.html": "/satya-web/index.html",
     "static/media/facebook.svg": "/satya-web/static/media/facebook.677d3c2d3e2dcec4e05d9db13f15ec9a.svg",
     "static/media/patreon.svg": "/satya-web/static/media/patreon.6fff94144a4a85897a5d09595d78e46f.svg",
-    "main.9d3e30b5.css.map": "/satya-web/static/css/main.9d3e30b5.css.map",
+    "main.b02310d8.css.map": "/satya-web/static/css/main.b02310d8.css.map",
     "main.0c626557.js.map": "/satya-web/static/js/main.0c626557.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d3e30b5.css",
+    "static/css/main.b02310d8.css",
     "static/js/main.0c626557.js"
   ]
 }
