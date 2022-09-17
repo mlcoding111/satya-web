@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/satya-web/static/css/main.b02310d8.css",
-    "main.js": "/satya-web/static/js/main.0c626557.js",
+    "main.css": "/satya-web/static/css/main.1757e622.css",
+    "main.js": "/satya-web/static/js/main.df797df5.js",
     "static/media/me_3.png": "/satya-web/static/media/me_3.72b1ee52bd7c01de7689.png",
+    "static/media/image_me_4.jpeg": "/satya-web/static/media/image_me_4.0835b3c5b50a67a8195d.jpeg",
     "static/media/me_1.png": "/satya-web/static/media/me_1.a95a34175a9cb4780815.png",
     "static/media/greece_1.png": "/satya-web/static/media/greece_1.2f3f116b53f45e07469f.png",
     "static/media/greece_3.png": "/satya-web/static/media/greece_3.fb8b49176c2a1c8877a6.png",
-    "static/media/greece_2.png": "/satya-web/static/media/greece_2.2e4cb87191a6e033844c.png",
-    "static/media/footer-icon.png": "/satya-web/static/media/footer-icon.dbc0e651d87d268d4136.png",
     "static/media/element_feu.svg": "/satya-web/static/media/element_feu.d3ff355c2b9701e3c0ba1fc68d104037.svg",
     "static/media/element_eau.svg": "/satya-web/static/media/element_eau.918d27e94573bb90cb9502067a4f5eec.svg",
     "static/media/header.jpg": "/satya-web/static/media/header.56f8978708560fd80a82.jpg",
     "static/media/element_terre.svg": "/satya-web/static/media/element_terre.772a4dcc089559de4205220e221b1a80.svg",
+    "static/media/footer-eye.svg": "/satya-web/static/media/footer-eye.a6ce81891124df0de00ee3d54f91b442.svg",
     "static/media/element_air.svg": "/satya-web/static/media/element_air.e51b9f4d1df94fd6a1830048a322db62.svg",
     "static/media/instagram.svg": "/satya-web/static/media/instagram.1df060dbd54a1ba52e88a253c02207ad.svg",
     "index.html": "/satya-web/index.html",
     "static/media/facebook.svg": "/satya-web/static/media/facebook.677d3c2d3e2dcec4e05d9db13f15ec9a.svg",
     "static/media/patreon.svg": "/satya-web/static/media/patreon.6fff94144a4a85897a5d09595d78e46f.svg",
-    "main.b02310d8.css.map": "/satya-web/static/css/main.b02310d8.css.map",
-    "main.0c626557.js.map": "/satya-web/static/js/main.0c626557.js.map"
+    "main.1757e622.css.map": "/satya-web/static/css/main.1757e622.css.map",
+    "main.df797df5.js.map": "/satya-web/static/js/main.df797df5.js.map"
   },
   "entrypoints": [
-    "static/css/main.b02310d8.css",
-    "static/js/main.0c626557.js"
+    "static/css/main.1757e622.css",
+    "static/js/main.df797df5.js"
   ]
 }
