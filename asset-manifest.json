@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/satya-web/static/css/main.1757e622.css",
-    "main.js": "/satya-web/static/js/main.df797df5.js",
+    "main.css": "/satya-web/static/css/main.101289c6.css",
+    "main.js": "/satya-web/static/js/main.85bb08d8.js",
     "static/media/me_3.png": "/satya-web/static/media/me_3.72b1ee52bd7c01de7689.png",
     "static/media/image_me_4.jpeg": "/satya-web/static/media/image_me_4.0835b3c5b50a67a8195d.jpeg",
     "static/media/me_1.png": "/satya-web/static/media/me_1.a95a34175a9cb4780815.png",
@@ -17,11 +17,11 @@
     "index.html": "/satya-web/index.html",
     "static/media/facebook.svg": "/satya-web/static/media/facebook.677d3c2d3e2dcec4e05d9db13f15ec9a.svg",
     "static/media/patreon.svg": "/satya-web/static/media/patreon.6fff94144a4a85897a5d09595d78e46f.svg",
-    "main.1757e622.css.map": "/satya-web/static/css/main.1757e622.css.map",
-    "main.df797df5.js.map": "/satya-web/static/js/main.df797df5.js.map"
+    "main.101289c6.css.map": "/satya-web/static/css/main.101289c6.css.map",
+    "main.85bb08d8.js.map": "/satya-web/static/js/main.85bb08d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1757e622.css",
-    "static/js/main.df797df5.js"
+    "static/css/main.101289c6.css",
+    "static/js/main.85bb08d8.js"
   ]
 }
