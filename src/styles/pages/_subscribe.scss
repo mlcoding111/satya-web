@@ -1,0 +1,33 @@
+#subscribe-section{
+    padding-bottom: 3.5rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.button-container{
+    button{
+        padding: .5rem 2rem;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}
+
+.elements-container{
+    padding: 15px;
+    img{
+        margin: 100px auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    @media screen and (max-width: 768px){
+        img{
+            width: 200px;
+        }
+    }
+}

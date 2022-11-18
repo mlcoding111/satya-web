@@ -1,5 +1,7 @@
 import React from "react";
 import Title from "../components/Title";
+import Section from "../containers/Section";
+
 
 const quoteMark = () => {
   return (
@@ -22,7 +24,7 @@ const quoteMark = () => {
   );
 };
 
-function TestimonialCard() {
+function TestimonialCard({description, from}) {
   return (
     <div className="testimonial-card">
       <div className="testimonial-card-content">
@@ -33,10 +35,10 @@ function TestimonialCard() {
           </div>
         <div className="testimonial-card-text">
           <p className="long-text">
-          Le soin Essence sauvage de mon frère éternel Satya est d’une pureté incomparable. Ce voyage authentique rempli d’amour et de légèreté est tout simplement magique. Satya nous transporte à la fois en nous et dans l’infini des possibles tant par ses paroles poétiques qui abreuvent notre âme que par ses chants intemporels et hautement vibratoires qui traversent tous nos corps.
+          {description}
           </p>
         </div>
-        <span>-Isabelle G.</span>
+        <span>{from}</span>
       </div>
     </div>
   );
@@ -44,13 +46,21 @@ function TestimonialCard() {
 
 function Testimonials() {
   return (
-    <section id="testimonials">
+    <Section id="testimonials">
       <Title title="Témoignages" />
-      <TestimonialCard />
-      <TestimonialCard />
-      <TestimonialCard />
-      <TestimonialCard />
-    </section>
+
+      <div className="testimonials-header">
+        <img height="16" width="16" alt="✨" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1/16/2728.png"></img>
+          <h2>Grand Loup Protecteur</h2>
+        <img height="16" width="16" alt="✨" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/images/emoji.php/v9/tf4/1/16/2728.png"></img>
+      </div>
+
+      <TestimonialCard description={"Le soin Essence sauvage de mon frère éternel Satya est d’une pureté incomparable. Ce voyage authentique rempli d’amour et de légèreté est tout simplement magique. Satya nous transporte à la fois en nous et dans l’infini des possibles tant par ses paroles poétiques qui abreuvent notre âme que par ses chants intemporels et hautement vibratoires qui traversent tous nos corps."} from={"-Isabelle G."}/>
+      <TestimonialCard description={"Satya est un être oeuvrant avec autant de simplicité que de puissance. Sa connexion aux éléments et au vivant est inouïe. Il est rare qu’un homme soit à ce point connecté au coeur en créant en harmonie entre le guerrier, la déesse et l’enfant intérieur. Je n’ai jamais reçu de soin aussi grandiose qu’avec Satya. Se laisser soutenir par sa médecine est une clé pour l’ascension ultime."} from={"-R.L"}/>
+      <TestimonialCard description={"Satya est un grand, magique et magnifique Chaman du Cœur aux puissantes médecines de l’Amour. Ce Roi de Gaïa porte dans son essence de grandes et précieuses clés magiques de reliance aux sagesses ancestrales de tous les éléments, de la Vie et ses trésors. Ses soins sont de puissants joyaux des racines du cœur qui accompagnent à laisser le flot magique et les mouvements de vie circuler dans notre arbre de vie par le cœur. Il est la voix.e du cœur, de la fréquence lumière de l’essence sauvage et profonde."} from={"-M.G."}/>
+      <TestimonialCard description={"Dès son jeune âge son coeur est rempli d’amour et de générosité son partage ressemble à une immense chute d’eau de déversant dans une mer infinie qui rejoins le ciel. Soif de liberté pour découvrir et partager, ce jeune loup debout sur ses pattes très tôt,commence et partage son amour très jeune, vivre de l air, feu, ciel et terre.... Même dans la noirceur il brille de lumière."} from={"-JR"}/>
+    
+    </Section>
   );
 }
 

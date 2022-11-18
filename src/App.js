@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 // Containers
 import Header from "./containers/Header";
@@ -10,20 +10,33 @@ import Story from "./pages/Story";
 import Subscribe from "./pages/Subscribe";
 import Testimonials from "./pages/Testimonials";
 import Soins from "./pages/Soins";
+import Overlay from "./components/Overlay";
+import Layout from "./containers/Layout";
+import Contact from "./pages/Contact";
+import Accompany from "./pages/Accompany";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
+
       <Header />
       <SubNav />
-        <Routes>
-          <Route path="/" element={<Story />} />
-          <Route path="/abonnement" element={<Subscribe />} />
-          <Route path="/soins" element={<Soins />} />
-          <Route path="/temoignages" element={<Testimonials />} />
-        </Routes>
+      <Overlay />
+      
+        <Layout>
+          <Routes>
+              <Route path={"/"} element={<Story />} />
+              <Route path={"/abonnement"} element={<Subscribe />} />
+              <Route path={"/soins"} element={<Soins />} />
+              <Route path={"/temoignages"} element={<Testimonials />} />
+              <Route path={"/contact"} element={<Contact />} />
+              <Route path={"/acompagnement"} element={<Accompany />} />
+          </Routes>
+        </Layout>
+        
       <Footer />
-    </BrowserRouter>
+
+    </HashRouter>
   );
 }
 

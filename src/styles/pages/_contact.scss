@@ -1,0 +1,11 @@
+#contact-section{
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    padding: 50px 5px;
+    p{
+        max-width: 700px;
+        margin: 0 auto;
+        margin-top: 65px;
+    }
+}
